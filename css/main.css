@@ -1,0 +1,19 @@
+@font-face {
+  font-family: main-font;
+  src: url(../fonts/baskvl.woff); }
+
+@font-face {
+  font-family: body-font;
+  src: url(../fonts/hoefler.woff); }
+
+nav, .reviews, footer {
+  background-color: #eceeec; }
+
+.about, .prices, .credit {
+  background-color: #c4b9cf; }
+
+h1, h2 {
+  font-family: main-font; }
+
+h3, p, li, a {
+  font-family: body-font; }

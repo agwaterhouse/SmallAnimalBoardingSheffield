@@ -1,0 +1,23 @@
+@import 'var';
+
+
+//section colours
+nav, .reviews, footer{
+    background-color: $light-grey;
+}
+
+.about, .prices, .credit{
+    background-color: $dark-grey;
+}
+
+
+
+
+
+  h1,h2 {
+    font-family: main-font;
+ }
+
+ h3, p, li, a{
+     font-family: body-font;
+ }
