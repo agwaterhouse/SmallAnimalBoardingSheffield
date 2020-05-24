@@ -1,13 +1,17 @@
 //colours
 $light-grey: #eceeec;
 $dark-grey: #c4b9cf;
+$light-purple:#cc99cc;
+
+
 
 //fonts
 @font-face {
     font-family: main-font;
     src: url(../fonts/baskvl.woff);
+    font-weight: normal;
+    font-style: normal;
   }
-
 
 @font-face {
     font-family: body-font;

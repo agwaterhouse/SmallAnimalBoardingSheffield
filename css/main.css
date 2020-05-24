@@ -1,10 +1,20 @@
 @font-face {
   font-family: main-font;
-  src: url(../fonts/baskvl.woff); }
+  src: url(../fonts/baskvl.woff);
+  font-weight: normal;
+  font-style: normal; }
 
 @font-face {
   font-family: body-font;
   src: url(../fonts/hoefler.woff); }
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit; }
 
 nav, .reviews, footer {
   background-color: #eceeec; }
@@ -13,7 +23,51 @@ nav, .reviews, footer {
   background-color: #c4b9cf; }
 
 h1, h2 {
-  font-family: main-font; }
+  font-family: main-font;
+  color: black; }
 
 h3, p, li, a {
-  font-family: body-font; }
+  font-family: body-font;
+  color: black; }
+
+.cta-buttons {
+  padding: 0.8em;
+  border-radius: 5px;
+  background-color: #cc99cc;
+  border: solid 1px black;
+  text-decoration: none; }
+
+header {
+  min-height: 50vh;
+  /* make the header a sensible height */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  /* turn on flexbox for our text and center it horizontally and vertically */
+  overflow: hidden;
+  /* don't allow the video to show outside the box */
+  position: relative;
+  /* create a 'positioning context' for our video and sm */ }
+
+header img {
+  position: absolute;
+  /*Has to be set to this to allow Z Index to work*/
+  width: 100%;
+  height: 100%;
+  -o-object-fit: fill;
+  object-fit: fill;
+  opacity: 0.5; }
+
+header .main-banner {
+  position: relative;
+  z-index: 1;
+  /* turn on positioning to allow us to 'stack' the header on top of the video */
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: left; }
