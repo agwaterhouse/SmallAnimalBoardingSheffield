@@ -142,7 +142,45 @@ margin-right: 3em;
     margin-bottom: 3em;
 }
 
-
-.footer{
-    text-align: center;
+.contact-details li{
+    margin-bottom: 2em;
+    list-style-type: none;
 }
+
+
+
+footer li  * {
+
+    display: flex;
+    align-items: center;
+}
+
+
+  
+
+
+    footer{
+        overflow: hidden;
+display: flex;  
+flex-direction: column;
+justify-content: center;
+align-items: center;  }
+
+
+    .contact-details {
+
+        img{
+            width: 30px;
+            margin-right: none;
+        }
+
+        p{
+            margin-left: 1em;
+        }
+
+    }
+  
+
+    .credit {
+        width: 100%;
+    }
