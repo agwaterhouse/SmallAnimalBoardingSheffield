@@ -16,11 +16,18 @@ html {
   -webkit-box-sizing: inherit;
   box-sizing: inherit; }
 
+* {
+  -webkit-margin-before: 0;
+  margin-block-start: 0;
+  -webkit-margin-after: 0;
+  margin-block-end: 0; }
+
 nav, .reviews, footer {
   background-color: #eceeec; }
 
 .about, .prices, .credit {
-  background-color: #c4b9cf; }
+  background-color: #c4b9cf;
+  padding-bottom: 2em; }
 
 h1, h2 {
   font-family: main-font;
@@ -71,3 +78,64 @@ header .main-banner {
   -ms-flex-direction: column;
   flex-direction: column;
   text-align: left; }
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end; }
+
+.nav-cta-buttons {
+  margin-top: auto;
+  margin-bottom: auto; }
+
+h2 {
+  padding-top: 2em;
+  text-align: center; }
+
+p {
+  margin-left: 3em;
+  margin-right: 3em; }
+
+.about-text {
+  margin-bottom: 3em; }
+
+.key {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 3em; }
+
+.photo-updates {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-bottom: 3em; }
+
+.central-text {
+  text-align: center; }
+
+.animal-images {
+  margin-bottom: 1em; }
+
+.rabbit, .pig, .hamster, .budgie {
+  margin-bottom: 3em; }
+
+.footer {
+  text-align: center; }

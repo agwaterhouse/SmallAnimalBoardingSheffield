@@ -11,6 +11,12 @@ html {
   }
 
 
+*{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+
 //section colours
 nav, .reviews, footer{
     background-color: $light-grey;
@@ -19,6 +25,7 @@ nav, .reviews, footer{
 
 .about, .prices, .credit{
     background-color: $dark-grey;
+    padding-bottom: 2em;
 }
 
 
@@ -75,3 +82,67 @@ header .main-banner {
     text-align: left;
 }
 
+nav{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+
+.nav-cta-buttons{
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+
+h2{
+    padding-top: 2em;
+    text-align: center;
+}
+
+p{
+margin-left: 3em;
+margin-right: 3em;
+
+
+}
+
+
+
+
+
+.about-text{
+    margin-bottom: 3em;
+}
+
+.key{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+
+.photo-updates{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 3em;
+}
+
+.central-text{
+    text-align: center;
+}
+
+.animal-images{
+    margin-bottom: 1em;
+}
+
+.rabbit, .pig, .hamster, .budgie{
+    margin-bottom: 3em;
+}
+
+
+.footer{
+    text-align: center;
+}
